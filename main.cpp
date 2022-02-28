@@ -5,12 +5,9 @@ using namespace std;
 int main()
 {
 cout << "Enter A and B: ";
-int a, b, c, d;
+int a, b;
 cin >> a >> b;
-c = a + b;
-d = a - b;
-cout << c;
-cout << endl;
-cout << d;
+cout << "A + B = " << a + b << '\n'
+     << "A - B = " << a - b << '\n';
 return 0;
 }
